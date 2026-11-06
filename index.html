@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ThoughtFlow English - 생각을 영어로 말하고 쓰고 기억하다</title>
+    <meta name="description" content="생각을 영어로 말하고 쓰고 망각곡선 기반으로 기억하는 AI 적응형 영어 학습 플랫폼" />
+    <meta property="og:title" content="ThoughtFlow English - 생각을 영어로 말하고 쓰고 기억하다" />
+    <meta property="og:description" content="생각을 영어로 말하고 쓰고 망각곡선 기반으로 기억하는 AI 적응형 영어 학습 플랫폼" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#4f46e5" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="ThoughtFlow" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+      // Suppress Vite HMR WebSocket closing errors in sandbox/iframe environment
+      window.addEventListener('unhandledrejection', function (event) {
+        var msg = (event.reason && (event.reason.message || event.reason.stack || '')) || '';
+        if (msg.includes('WebSocket') || msg.includes('@vite/client') || msg.includes('vite')) {
+          event.preventDefault();
+        }
+      });
+      window.addEventListener('error', function (event) {
+        var msg = (event.message || '') + ' ' + (event.filename || '');
+        if (msg.includes('WebSocket') || msg.includes('@vite/client')) {
+          event.preventDefault();
+        }
+      });
+    </script>
+  </head>
+  <body class="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 min-h-screen antialiased selection:bg-indigo-500 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

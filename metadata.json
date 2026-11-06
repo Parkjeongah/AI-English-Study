@@ -1,0 +1,6 @@
+{
+  "name": "ThoughtFlow English",
+  "description": "생각을 영어로 말하고 쓰고 망각곡선 기반으로 기억하는 AI 적응형 영어 학습 플랫폼",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,6 @@
+{
+  "summary": "Implementation plan for Media Clips recommendation feature in ThoughtFlow English. Adds TV/film dialogue recommendations (Suits, The Intern, Sherlock, etc.) to the thought analysis card, complete with character quotes, scene context, native TTS, and YouTube search links.",
+  "updatedAt": "2026-11-05T20:08:59.377370025Z",
+  "requestFeedback": true,
+  "userFacing": true
+}
